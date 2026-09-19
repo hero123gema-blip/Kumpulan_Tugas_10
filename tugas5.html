@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 5</title>
+</head>
+
+<body>
+    <center>
+        <h1>Formulir Pendaftaran Lomba Sains</h1>
+    </center>
+    <form action="">
+        <label for="name">Nama Lengkap</label>
+        <input type="text" required>
+        <br>
+
+        <br>
+        <label for="alamat">Alamat</label>
+        <input type="text" required>
+        <br>
+
+        <br>
+        <label for="usia">Usia</label>
+        <input type="number" name="usia" min="1" max="100" required>
+        <br>
+
+        <br>
+        <label for="birthday">Tanggal Lahir</label>
+        <input type="date" id="birthday" name="birthday" required>
+        <br>
+
+        <br>
+        <label for="email">Email</label>
+        <input type="email" required>
+        <br>
+
+        <br>
+        <label for="tp">Nomor Telepon</label>
+        <input type="tel" name="tp" placeholder="0812356789" required>
+        <br>
+
+        <br>
+        <label for="as">Asal Sekolah</label>
+        <br>
+        <input type="radio" name="radio" value="smkn5">
+        <label for="smkn5">SMKN 5 Bandung</label>
+        <input type="radio" name="radio" value="sma10">
+        <label for="sma10">SMA 10 Bandung</label>
+
+        <br>
+        <label for="pl">Pilihan Lomba</label>
+        <br>
+        <input type="radio" name="radio" value="mtk">
+        <label for="mtk">Matematika</label>
+        <input type="radio" name="radio" value="ipa">
+        <label for="ipa">IPA</label>
+        <input type="radio" name="radio" value="ips">
+        <label for="ips">IPS</label>
+        <br>
+        <br>
+        <label for="alasan">Alasan Milih Lomba</label>
+        <br>
+        <textarea name="alasan" id=""></textarea>
+        <br>
+        <input type="submit" value="kirim">
+    </form>
+
+</body>
+
+</html>
