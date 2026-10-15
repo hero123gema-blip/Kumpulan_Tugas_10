@@ -1,0 +1,38 @@
+body{
+    background-color:rgb(1, 1, 53);
+}
+
+div{
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    text-align: center;
+}
+
+.box{
+    width: 230px;
+    height: 200px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#box1{
+    background-color: blue;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: blue;
+}
+img{
+    width: 400px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
